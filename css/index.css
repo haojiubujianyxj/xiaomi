@@ -1,0 +1,240 @@
+div,ul,li,a,span,h1,h2,h3,body,i,input{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: #B0B0B0;
+    text-decoration: none;
+    font-family:"Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif
+; ;
+    font-style: normal;
+    border: none;
+    outline: none;
+}
+body {
+    height: 1000px;
+}
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+ /*☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆*/
+.clr:before{
+    content: "";
+    display: table;
+}
+.clr:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.top {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+.top .topLeft {
+    float: left;
+    width: 534px;
+    height: 40px;
+    font: 12px/40px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif
+;
+}
+.topLeft li {
+    float: left;
+}
+.topLeft li a:hover {
+    color: white;
+}
+.topLeft span {
+    margin: 0 8px 0 7px;
+    color: #424242;
+}
+.top .topRight {
+    width: 204px;
+    height: 40px;
+    float: right;
+}
+.topRight .login {
+    float: left;
+}
+.login a {
+    width: 204px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+}
+.login a:hover {
+    color: white;
+}
+.topRight span {
+    padding: 0 1px 0 2px;
+    color: #424242;
+}
+.topRight .car {
+    width: 120px;
+    height: 40px;
+    float: right;
+    background-color: #424242;
+}
+.car a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    position: relative;
+    padding-left: 20px;
+}
+.car .gouBox {
+    width: 316px;
+    height: 96px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    right: -1px;
+    display: none;
+    line-height: 98px;
+    text-align: center;
+    border: 1px  ;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+    border-top: 0;
+    color: #444;
+    z-index: 3;
+}
+.car a:hover {
+    background-color: white;
+    color: #FF6700;
+}
+/*.car a:hover .gouBox{
+    display: block;
+}*/
+.car a:hover i {
+    color: #FF6700;
+}
+/*logo部分*/
+.logo {
+    height: 100px;
+    position: relative;
+}
+.logo .logoIcon {
+    width: 55px;
+    height: 55px;
+    background: url("../images/logo.png") no-repeat;
+    margin-top: 22px;
+    float: left;
+}
+.logoIcon a {
+    display: block;
+    width: 55px;
+    height: 55px;
+}
+.logo .nav {
+    width: 820px;
+    height: 80px;
+    float: left;
+    padding-top: 20px;
+    /*position: relative;*/
+}
+.nav .pic {
+    margin-left: 5px;
+    width: 163px;
+    height: 66px;
+    float: left;
+}
+.nav ul {
+    float: left;
+}
+.nav li {
+    float: left;
+    /*margin: 0 13px;*/
+    padding: 0 13px 20px 13px;
+}
+.nav li a {
+    font: 16px/60px "microsoft yahei";
+    color: black;
+}
+.nav li:hover a{
+    color: #FF6700;
+}
+.logo .slide {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -1000px;
+    background-color: white;
+    width: 2000px;
+    /*margin: 0 auto;  适用于标准文档流里面的数据*/
+    height: 228px;
+    border-top: 1px solid #ccc;
+    box-shadow:0 3px 4px rgba(0,0,0,0.18);
+    z-index: 2;
+}
+/*.nav .slide ul {
+    width: 1224px;
+    margin: 0 auto;
+}*/
+
+.logo .search {
+    width: 294px;
+    height: 48px;
+    border: 1px solid #E0E0E0;
+    float: right;
+    margin-top: 25px;
+    line-height: 48px;
+}
+.search input {
+    width: 243px;
+    height: 38px;
+    color: black;
+}
+.search span {
+    width: 50px;
+    height: 48px;
+    border-left: 1px solid #E0E0E0;
+    float: right;
+    background: url("../images/search.png");
+}
+.search span:hover {
+    background: url("../images/search2.png");
+}
+/*bannder*/
+
+.banner {
+    height: 460px;
+    /*background: url("../images/22.jpg");*/
+    position: relative;
+}
+.banner .fenlei {
+    width: 234px;
+    height: 424px;
+    padding: 18px 0;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fenlei a {
+    width: 180px;
+    height: 42px;
+    display: block;
+    color: white;
+    font-size: 14px;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 24px;
+}
+.fenlei a:hover {
+    background-color: #FF6700;
+}
+.fenlei b {
+    float: right;
+    font-family: "simsun";
+}
+
+
+
+
+
+
+
+
